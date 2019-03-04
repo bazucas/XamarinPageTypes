@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinPageTypes.PageType.Carrousel.AppIntro">
+    <ContentPage>
+        <Label Text="Page1"/>
+    </ContentPage>
+    <ContentPage>
+        <Label Text="Page2"/>
+    </ContentPage>
+    <ContentPage>
+        <Label Text="Page3"/>
+    </ContentPage>
+</CarouselPage>-->
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:pageType="clr-namespace:XamarinPageTypes.PageType.Carrousel"
+              x:Class="XamarinPageTypes.PageType.Carrousel.AppIntro">
+    <pageType:PageType1/>
+    <pageType:PageType2/>
+    <pageType:PageType3/>
+</CarouselPage>

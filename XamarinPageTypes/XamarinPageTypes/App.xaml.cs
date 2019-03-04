@@ -1,6 +1,5 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
+using XamarinPageTypes.PageType.Carrousel;
 
 namespace XamarinPageTypes
 {
@@ -10,7 +9,7 @@ namespace XamarinPageTypes
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AppIntro();
         }
 
         protected override void OnStart()
